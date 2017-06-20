@@ -1,0 +1,36 @@
+/* Name: Chase Keady */
+/* COSC 365 */
+/* This assignment dealt with creating a web form. */
+/* This file contains the CSS code for pizza webpage. */
+body{
+  background-color: rgb(242,242,242);
+  font-size: 16pt;
+  margin: 0;
+  padding: 0;
+}
+
+.pizzazz{
+  font-family: "Arial", sans-serif;
+  font-size: 36pt;
+  color: rgb(180,180,180);
+  background-color: rgb(206,8,8);
+  border: 2px solid black;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+
+table{
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+th{
+  text-align: left;
+}
+
+th, td{
+  height: 35px;
+}

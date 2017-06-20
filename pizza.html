@@ -1,0 +1,58 @@
+<!-- Name: Chase Keady -->
+<!-- COSC 365 -->
+<!-- This assignment dealt with creating a web form. -->
+<!-- This file contains the html code for the pizza webpage. -->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  
+  <head>
+    <title> Pizzazz Pizza </title>
+    <meta http-equiv = "Content-Type" content = "text/html; charset = utf-8" />
+    <link href="pizza.css" type="text/css" rel="stylesheet" />
+  </head>
+  
+  <body>
+      <form action="pizza.php" method="get">
+        <h1 class="pizzazz">
+          Pizzazz Pizza
+        </h1>
+        
+        <table>
+          <tr>
+            <th>Size:</th>
+            <th>Toppings:</th>
+            <th>Crust:</th>
+          </tr>
+          
+          <tr>
+            <td> <input type="radio" name="size" value="Large" /> Large </td>
+            <td> <input type="checkbox" name="pepperoni" value="yes"/> Pepperoni </td>
+            <td> <select name="crustOption">
+                   <option> Thin </option>
+                   <option> Original </option>
+                   <option> Deep Dish </option>
+                 </select> </td>
+          </tr>
+          
+          <tr>
+            <td> <input type="radio" name="size" value="X-Large" /> X-Large </td>
+            <td> <input type="checkbox" name="mushrooms" value="yes"/> Mushrooms </td>
+          </tr>
+        </table>
+        
+        <table>  
+          <tr>
+            <td> Name: <input type="text" name = "name" /> </td>
+            <td> </td>
+            <td> <input type="submit" value = "Submit" /> </td>
+          </tr>
+        </table>
+
+      </form>
+    
+  </body>
+  
+</html>

@@ -1,0 +1,20 @@
+/* Name: Chase Keady */
+/* COSC 365 */
+/* This assignment dealt with creating a web form. */
+/* This file contains the CSS code for the output of pizza.php. */
+
+body{
+  background-color: rgb(242,242,242);
+}
+h1{
+  text-align: center;
+  font-family: "Arial", sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.receipt{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
